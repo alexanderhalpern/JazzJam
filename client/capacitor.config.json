@@ -1,0 +1,16 @@
+{
+  "appId": "com.JazzJam.app",
+  "appName": "JazzJam",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "CapacitorFirebaseAuth": {
+      "providers": ["google.com", "twitter.com", "apple.com", "facebook.com"],
+      "languageCode": "en",
+      "nativeAuth": false,
+      "permissions": {
+        "google": ["profile"]
+      }
+    }
+  }
+}

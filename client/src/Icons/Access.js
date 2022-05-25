@@ -1,0 +1,15 @@
+export const Icons = {
+  Drums: require("./Drums.png"),
+  Piano: require("./Piano.png"),
+  Trumpet: require("./Trumpet.png"),
+  Trombone: require("./Trombone.png"),
+  Bass: require("./Bass.png"),
+  Violin: require("./Violin.png"),
+  Guitar: require("./Guitar.png"),
+  Percussion: require("./Percussion.png"),
+  Voice: require("./Voice.png"),
+  Clarinet: require("./Clarinet.png"),
+  Flute: require("./Flute.png"),
+  "Tenor Sax": require("./TenorSax.png"),
+  "Alto Sax": require("./AltoSax.png"),
+};

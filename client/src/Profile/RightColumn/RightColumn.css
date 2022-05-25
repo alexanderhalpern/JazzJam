@@ -1,0 +1,57 @@
+/*
+@media (max-width: 600px) {
+    .rightColumn{
+      display: none;
+    }
+  }
+*/
+
+.rightColumn {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cards__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 5%;
+}
+
+.mini__username {
+  font-size: 1.1rem;
+  line-height: 25px;
+  font-weight: 500;
+  padding-bottom: 0px;
+  color: black;
+  width: 95%; /* the element needs a fixed width (in px, em, %, etc) */
+  overflow: hidden; /* make sure it hides the content that overflows */
+  white-space: nowrap; /* don't break the line */
+  text-overflow: ellipsis;
+}
+
+.cards__small {
+  display: flex;
+  padding: 3%;
+  text-overflow: ellipsis;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cards__small > .MuiAvatar-root {
+  margin-right: 10px;
+}

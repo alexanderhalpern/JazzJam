@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: calc(env(safe-area-inset-top) + 62px) !important;
+}

@@ -1,0 +1,24 @@
+.footer {
+  /* remain fixed at bottom of page */
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+.support {
+  /* put items on same line */
+  display: flex;
+  flex-direction: row;
+}
+
+.supportText {
+  margin-right: 5px;
+}
+
+.supportEmail {
+  margin-right: 5px;
+}

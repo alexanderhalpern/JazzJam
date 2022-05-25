@@ -1,0 +1,64 @@
+.messaging__box {
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .messaging {
+    align-items: right;
+    justify-content: right;
+    position: fixed;
+    z-index: 100000;
+    bottom: 20px;
+    right: 20px;
+    width: 325px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .messaging {
+    z-index: 100000;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.messaging__Button {
+  z-index: 500;
+  text-align: left;
+  padding-left: 7.8%;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .ce-chat-list {
+    margin-top: calc(env(safe-area-inset-top) + 62px);
+    max-height: calc(100vh - env(safe-area-inset-top)) !important;
+  }
+}
+
+.messaging__full {
+  height: calc(
+    100vh - 62px - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+  ) !important;
+}
+
+@media screen and (min-width: 800px) {
+  .messaging__full {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

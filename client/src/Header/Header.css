@@ -1,0 +1,29 @@
+.header {
+  height: 60px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
+  padding-left: 10%;
+  padding-top: 10px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__inner > img {
+  height: 40px;
+  object-fit: contain;
+}
